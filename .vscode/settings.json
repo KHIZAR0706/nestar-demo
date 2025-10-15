@@ -1,0 +1,45 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.defaultFormatter": "vscode.css-language-features",
+  "prettier.singleQuote": false,
+  "prettier.trailingComma": "es5",
+  "prettier.bracketSpacing": true,
+  "prettier.printWidth": 120,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.endOfLine": "auto",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": true
+  },
+  "[scss]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "files.associations": {
+    "*.scss": "scss",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact",
+    "*.js": "javascriptreact"
+  },
+  "files.autoSave": "off"
+}
