@@ -17,7 +17,7 @@ const TrendPropertyCard = () => {
       </Box>
       <Box className={"info"}>
         <strong className={"title"}>Dream House</strong>
-        <p className={"des"}>This is your future house</p>
+        <p className={"desc"}>This is your future house</p>
         <div className={"options"}>
           <div>
             <img src="/img/icons/bed.svg" alt="" />
